@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Портфолио</title>
+  <meta name="description" content="Сайты, чат-боты и ИИ-автоматизации для бизнеса.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="label">
+        <span>Артур</span><span class="label__dot" aria-hidden="true">•</span><span>Портфолио</span><span class="label__dot" aria-hidden="true">•</span><a class="label__link" href="https://github.com/jewweller" target="_blank" rel="noopener">github.com/jewweller</a>
+      </p>
+      <h1 class="hero__title">Сайты, чат-боты и ИИ-автоматизации для бизнеса</h1>
+      <p class="hero__text">Каждая карточка — 30-секундное видео о проекте и стек, на котором он сделан.</p>
+    </header>
+
+    <section class="grid" id="projects" aria-label="Проекты"></section>
+  </main>
+
+  <template id="card-template">
+    <article class="card">
+      <div class="card__media">
+        <video class="card__video" muted playsinline loop preload="metadata"></video>
+      </div>
+      <div class="card__body">
+        <h2 class="card__title"></h2>
+        <div class="card__controls">
+          <button type="button" class="btn" data-action="restart">Сначала</button>
+          <button type="button" class="btn" data-action="sound">Звук выкл</button>
+        </div>
+        <button type="button" class="btn card__stack-toggle" data-action="stack" aria-expanded="false">
+          Стек<span class="card__chevron" aria-hidden="true"></span>
+        </button>
+        <div class="card__stack" hidden></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Умный кредитный кабинет предпринимателя для Альфа-Банка",
+    "video": "videos/brag.mp4",
+    "stack": [
+      { "group": "Frontend", "items": ["TypeScript", "React 19", "Vite", "React Router", "TanStack Query", "openapi-typescript", "MSW", "CSS Modules", "pdf.js"] },
+      { "group": "Backend", "items": ["Python 3.12", "uv", "FastAPI", "Uvicorn", "Pydantic v2", "pydantic-settings", "SQLAlchemy 2", "Alembic", "psycopg 3", "PyJWT", "bcrypt", "PyYAML"] },
+      { "group": "База данных", "items": ["PostgreSQL 16", "SQLite (тесты)"] },
+      { "group": "ML", "items": ["Логрег на чистом Python", "scikit-learn", "XGBoost LambdaMART", "NDCG@5"] },
+      { "group": "Инфраструктура", "items": ["Docker Compose", "nginx", "GitHub Actions"] },
+      { "group": "Качество и документация", "items": ["pytest", "httpx", "Ruff", "OpenAPI", "Postman", "Mermaid"] }
+    ]
+  },
+  {
+    "title": "Распределение лимитов для страховой компании",
+    "video": "videos/ld_limits_30s_vertical.mp4",
+    "stack": [
+      { "group": "Backend", "items": ["Python 3.11+", "FastAPI", "Uvicorn", "SQLAlchemy 2", "Pydantic", "pydantic-settings", "Jinja2", "SessionMiddleware + itsdangerous"] },
+      { "group": "База данных", "items": ["PostgreSQL 16", "pg8000"] },
+      { "group": "Frontend", "items": ["HTML/CSS", "Vanilla JavaScript"] },
+      { "group": "Инфраструктура и тесты", "items": ["Docker Compose", "FastAPI TestClient", "Тесты на PostgreSQL"] }
+    ]
+  },
+  {
+    "title": "Telegram-бот для клиники",
+    "video": "videos/bivnivid-vertical.mp4",
+    "stack": [
+      { "group": "Бот", "items": ["Python 3.12", "asyncio", "aiogram 3", "APScheduler", "pydantic-settings"] },
+      { "group": "ИИ", "items": ["YandexGPT (Yandex AI Studio)", "OpenAI SDK"] },
+      { "group": "База данных", "items": ["PostgreSQL 16", "asyncpg", "SQL-миграции"] },
+      { "group": "Инфраструктура", "items": ["Docker Compose", "Telegram Bot API", "VPS в России"] }
+    ]
+  }
+]
