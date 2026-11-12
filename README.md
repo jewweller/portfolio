@@ -1,1 +1,1 @@
-https://github.com/jewweller/portfolio.git
+https://jewweller.github.io/portfolio/
